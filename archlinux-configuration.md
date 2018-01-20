@@ -9,24 +9,24 @@ Packages I like to install after an Arch Linux installation.
 ### GDM and GNOME
     pacman -S gdm gnome
 
-### archlinux-wallpaper for the lock screen (or default wallpaper sometimes)
+### [archlinux-wallpaper](https://www.archlinux.org/packages/community/any/archlinux-wallpaper/)
     pacman -S archlinux-wallpaper
 
-### materia-theme for GNOME
+### [materia-theme](https://github.com/nana-4/materia-theme) for GNOME
     yaourt -S materia-theme
 
-### Flat Remix icons
+### [Flat Remix](https://github.com/daniruiz/Flat-Remix) icons
     yaourt -S flat-remix-git
 
-### Capitaine cursors
+### [Capitaine cursors](https://github.com/keeferrourke/capitaine-cursors)
     yaourt -S capitaine-cursors
 
 ### Fonts
 
-#### Noto Fonts for the web, international characters and emoji
+#### [Noto Fonts](https://github.com/googlei18n/noto-fonts) for the web, international characters and emoji
     pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji
 
-#### Roboto for the materia-theme
+#### [Roboto](https://github.com/google/roboto) for the materia-theme
     pacman -S ttf-roboto
 
 I also like to use FiraMono For Nerd Font as my monospace font and FiraCode Nerd Font as my programming font, I don't use always the second because some softwares doesn't support font ligatures. You can download those fonts .zip file [on this website](https://nerdfonts.com/) and extract on your ~/.fonts folder, there's also an [AUR package](https://aur.archlinux.org/packages/nerd-fonts-complete) but it's have a big download size because it downloads every Nerd Font.
@@ -51,7 +51,7 @@ I also like to use FiraMono For Nerd Font as my monospace font and FiraCode Nerd
 
 [Status Area Horizontal Spacing](https://extensions.gnome.org/extension/355/status-area-horizontal-spacing/) - I like to put the Horizontal Padding to 2.
 
-[Status Title Bar](https://extensions.gnome.org/extension/1147/status-title-bar/) - I don't to have just the fixed application name on the GNOME top bar.
+[Status Title Bar](https://extensions.gnome.org/extension/1147/status-title-bar/) - I don't like to have just the fixed application name on the GNOME top bar.
 
 [User Themes](https://extensions.gnome.org/extension/19/user-themes/) - Materia-light-compact as shell theme.
 
@@ -61,17 +61,17 @@ I also like to use FiraMono For Nerd Font as my monospace font and FiraCode Nerd
 
     pacman -S zsh
 
-### oh-my-zsh
+### [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
     yaourt -S oh-my-zsh-git
 
-### powerlevel9k theme
+### [powerlevel9k](https://github.com/bhilburn/powerlevel9k) theme
 
-    git clone https://github.com/bhilburn/powerlevel9k.git $ZSH_CUSTOM/custom/themes/powerlevel9k
+    git clone https://github.com/bhilburn/powerlevel9k.git $ZSH_CUSTOM/themes/powerlevel9k
 
 ## Favorite programs
 
-### VS Code because it's the best text editor
+### [VS Code](https://github.com/Microsoft/vscode) because it's the best text editor
 
     yaourt -S visual-studio-code-bin
 
@@ -79,11 +79,11 @@ I also like to use FiraMono For Nerd Font as my monospace font and FiraCode Nerd
 
     yaourt -S google-chrome
 
-### Tilix because it's a great terminal emulator
+### [Tilix](https://github.com/gnunn1/tilix) because it's a great terminal emulator
 
     yaourt -S tilix
 
-### Docker for any programming stuff
+### [Docker](https://github.com/docker/docker-ce) for any programming stuff
 
     yaourt -S docker docker-compose
 
