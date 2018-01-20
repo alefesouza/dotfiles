@@ -1,0 +1,9 @@
+alias pam="php artisan migrate"
+alias pamd="php artisan migrate --seed"
+alias padb="php artisan db:seed"
+
+alias y="yarn"
+alias ci="composer install"
+
+alias dcu="docker-compose up"
+alias dcd="docker-compose down"
