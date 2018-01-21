@@ -1,0 +1,17 @@
+[org/gnome/desktop/interface]
+clock-format='12h'
+font-name='Roboto 11'
+cursor-theme='capitaine-cursors'
+show-battery-percentage=false
+icon-theme='Flat Remix'
+monospace-font-name='FiraMonoFor Nerd Font 11'
+enable-animations=true
+gtk-theme='Materia-compact'
+
+[org/gnome/desktop/wm/preferences]
+button-layout='appmenu:minimize,maximize,close'
+resize-with-right-button=false
+titlebar-font='Roboto 11'
+
+[org/gnome/desktop/wm/keybindings]
+show-desktop=['<Super>d']

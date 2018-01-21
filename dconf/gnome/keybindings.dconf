@@ -1,0 +1,14 @@
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
+binding='<Primary><Alt>g'
+command='/usr/bin/google-chrome-stable'
+name='Open Google Chrome'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+binding='<Primary><Alt>c'
+command='/usr/bin/code'
+name='Open VS Code'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Primary><Alt>t'
+command='/usr/bin/tilix'
+name='Open Tilix'
