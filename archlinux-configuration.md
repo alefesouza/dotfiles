@@ -7,29 +7,43 @@ Packages I like to install after an Arch Linux installation.
 ## User interface
 
 ### GDM and GNOME
+
     pacman -S gdm gnome
 
 ### [archlinux-wallpaper](https://www.archlinux.org/packages/community/any/archlinux-wallpaper/)
+
     pacman -S archlinux-wallpaper
 
-### [materia-theme](https://github.com/nana-4/materia-theme) for GNOME
+### [materia-theme](https://github.com/nana-4/materia-theme)
+
+For GNOME window and shell theme.
+
     yaourt -S materia-theme
 
-### [Flat Remix](https://github.com/daniruiz/Flat-Remix) icons
+### [Flat Remix](https://github.com/daniruiz/Flat-Remix)
+
+As default icons theme
+
     yaourt -S flat-remix-git
 
 ### [Capitaine cursors](https://github.com/keeferrourke/capitaine-cursors)
+
+As default cursor theme.
+
     yaourt -S capitaine-cursors
 
 ### Fonts
 
-#### [Noto Fonts](https://github.com/googlei18n/noto-fonts) for the web, international characters and emoji
+#### [Noto Fonts](https://github.com/googlei18n/noto-fonts)
+
+For the web, international characters and emoji.
+
     pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji
 
 #### [Roboto](https://github.com/google/roboto) for the materia-theme
     pacman -S ttf-roboto
 
-I also like to use FiraMono For Nerd Font as my monospace font and FiraCode Nerd Font as my programming font, I don't use always the second because some softwares doesn't support font ligatures. You can download those fonts .zip file [on this website](https://nerdfonts.com/) and extract on your ~/.fonts folder, there's also an [AUR package](https://aur.archlinux.org/packages/nerd-fonts-complete) but it's have a big download size because it downloads every Nerd Font.
+I also like to use FiraMono For Nerd Font as my monospace font and FiraCode Nerd Font as my programming font, I don't use always the second because some softwares doesn't support font ligatures. You can download those fonts .zip file [on this website](https://nerdfonts.com/) and extract in your ~/.fonts folder, there's also an [AUR package](https://aur.archlinux.org/packages/nerd-fonts-complete) but it's have a big download size because it downloads every Nerd Font.
 
 ## Favorite GNOME Shell extensions
 
@@ -45,13 +59,13 @@ I also like to use FiraMono For Nerd Font as my monospace font and FiraCode Nerd
 
 [GSConnect](https://github.com/andyholmes/gnome-shell-extension-gsconnect) - To have the mobile device notifications on the computer.
 
-[Panel OSD](https://extensions.gnome.org/extension/708/panel-osd/) - I like the notifications on the top right corner.
+[No Title Bar](https://extensions.gnome.org/extension/1267/no-title-bar/) - I prefer the minimize/resize/close buttons on the extreme top right corner, and I don't like to have just the fixed application name on the GNOME top bar, this extensions helps with it all, but I use the [Status Title Bar](https://extensions.gnome.org/extension/1147/status-title-bar/) extension on the second case because it hides the arrow button if there's no menu option.
+
+[Panel OSD](https://extensions.gnome.org/extension/708/panel-osd/) - I prefer the notifications on the top right corner.
 
 [Refresh Wifi Connections](https://extensions.gnome.org/extension/905/refresh-wifi-connections/)
 
 [Status Area Horizontal Spacing](https://extensions.gnome.org/extension/355/status-area-horizontal-spacing/) - I like to put the Horizontal Padding to 2.
-
-[Status Title Bar](https://extensions.gnome.org/extension/1147/status-title-bar/) - I don't like to have just the fixed application name on the GNOME top bar.
 
 [User Themes](https://extensions.gnome.org/extension/19/user-themes/) - Materia-light-compact as shell theme.
 
@@ -85,7 +99,7 @@ I also like to use FiraMono For Nerd Font as my monospace font and FiraCode Nerd
 
 ### [Docker](https://github.com/docker/docker-ce) for any programming stuff
 
-    yaourt -S docker docker-compose
+    pacman -S docker docker-compose
 
 ## Utilities
 
