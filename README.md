@@ -1,7 +1,11 @@
 # Alefe Souza's dotfiles
 
-A repository with some of my configurations for vim and zsh.
+This is repository with my dotfiles, including Vim and Zsh, and some of my settings.
 
 You can check my Arch Linux favorite packages on the [archlinux-configuration.md](archlinux-configuration.md) file.
 
-Some of my custom configuration for Tilix and GNOME are in the ./dconf folder.
+You can check my VS Code favorite extensions on the [vscode-extensions.md](vscode-extensions.md) file, and my keybindings and some of my settings in the [./.vscode](./.vscode) folder.
+
+Some of my settings for Tilix and GNOME are in the [./dconf](./dconf) folder.
+
+I also have a project guidelines repository, you can check it [on this link](https://github.com/alefesouza/project-guidelines/blob/master/README.md).

@@ -1,0 +1,20 @@
+[
+  {
+    "key": "shift+enter",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+q",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+numpad_divide",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+'",
+    "command": "workbench.action.terminal.toggleTerminal"
+  }
+]
