@@ -33,7 +33,7 @@
   },
 
   "local-history.maxDisplay": 50,
-  "local-history.path": "~/Visual Studio Code",
+  "local-history.path": "Visual Studio Code",
 
   "material-icon-theme.folders.color": "#42a5f5",
   "material-icon-theme.hidesExplorerArrows": true,

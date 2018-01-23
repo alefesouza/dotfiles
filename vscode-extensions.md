@@ -18,7 +18,7 @@ Extensions installed on my Visual Studio Code.
 
 [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) - It syncs all my configurations, such as all those extensions and VS Code configurations.
 
-[WakaTime](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime) - It create charts of all my programming activity, you can check my WakaTime profile [on this link](https://wakatime.com/@alefesouza).
+[WakaTime](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime) - It creates charts of all my programming activity, you can check my WakaTime profile [on this link](https://wakatime.com/@alefesouza).
 
 ## <a name="theming"></a> Theming
 

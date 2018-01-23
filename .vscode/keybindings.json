@@ -16,5 +16,9 @@
   {
     "key": "ctrl+'",
     "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "shift+o",
+    "command": "workbench.action.files.openFolder"
   }
 ]

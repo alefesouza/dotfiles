@@ -1,6 +1,6 @@
 # Alefe Souza's dotfiles
 
-This is repository with my dotfiles, including Vim and Zsh, and some of my settings.
+This is a repository with my dotfiles, including Vim and Zsh, and some of my settings.
 
 You can check my Arch Linux favorite packages on the [archlinux-configuration.md](archlinux-configuration.md) file.
 
