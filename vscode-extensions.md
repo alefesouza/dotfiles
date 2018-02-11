@@ -42,6 +42,8 @@ Extensions installed on my Visual Studio Code.
 
 #### Vue.js
 
+[TSLint Vue](https://marketplace.visualstudio.com/items?itemName=prograhammer.tslint-vue)
+
 [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 
 ### HTML
@@ -68,11 +70,11 @@ Extensions installed on my Visual Studio Code.
 
 ### PHP
 
+[php cs fixer](https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer)
+
 [PHP Debug](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug)
 
 [PHP IntelliSense](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-intellisense)
-
-[phpcs](https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs)
 
 #### Laravel
 
@@ -86,12 +88,18 @@ Extensions installed on my Visual Studio Code.
 
 ## <a name="other"></a> Other
 
+[Docker](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker)
+
 [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 
 [Indenticator](https://marketplace.visualstudio.com/items?itemName=SirTori.indenticator)
 
+[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+
 [open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
 
 [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+
+[Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets)
 
 [TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
