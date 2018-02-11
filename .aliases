@@ -3,7 +3,16 @@ alias pamd="php artisan migrate --seed"
 alias padb="php artisan db:seed"
 
 alias y="yarn"
+alias yd="yarn dev"
+alias yp="yarn prod"
+alias yt="yarn test"
+alias yw="yarn watch"
+
 alias ci="composer install"
 
 alias dcu="docker-compose up"
+alias dcub="docker-compose up --build"
 alias dcd="docker-compose down"
+
+alias vv="vim ~/.vimrc"
+alias vz="vim ~/.zshrc"
