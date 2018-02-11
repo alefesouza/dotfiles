@@ -4,6 +4,8 @@ Packages I like to install after an Arch Linux installation.
 
 ![My Arch Linux](screenshot.png)
 
+I use [yay](https://github.com/Jguer/yay) to manage AUR packages, if you prefer Yaourt, you just need to replace "yay" commands with "yaourt".
+
 ## User interface
 
 ### GDM and GNOME
@@ -18,19 +20,19 @@ Packages I like to install after an Arch Linux installation.
 
 For GNOME window and shell theme.
 
-    yaourt -S materia-theme
+    yay -S materia-theme
 
 ### [Flat Remix](https://github.com/daniruiz/Flat-Remix)
 
 As default icons theme
 
-    yaourt -S flat-remix-git
+    yay -S flat-remix-git
 
 ### [Capitaine cursors](https://github.com/keeferrourke/capitaine-cursors)
 
 As default cursor theme.
 
-    yaourt -S capitaine-cursors
+    yay -S capitaine-cursors
 
 ### Fonts
 
@@ -43,17 +45,15 @@ For the web, international characters and emoji.
 #### [Roboto](https://github.com/google/roboto) for the materia-theme
     pacman -S ttf-roboto
 
-I also like to use FiraMono For Nerd Font as my monospace font and FiraCode Nerd Font as my programming font, I don't use always the second because some softwares doesn't support font ligatures. You can download those fonts .zip file [on this website](https://nerdfonts.com/) and extract in your ~/.fonts folder, there's also an [AUR package](https://aur.archlinux.org/packages/nerd-fonts-complete) but it's have a big download size because it downloads every Nerd Font.
+I also like to use FiraMono For Nerd Font as my monospace font and FiraCode Nerd Font as my programming font, I don't use always the second one because some softwares doesn't support font ligatures. You can download those fonts .zip file [on this website](https://nerdfonts.com/) and extract in your ~/.fonts folder, there's also an [AUR package](https://aur.archlinux.org/packages/nerd-fonts-complete) but it have a big download size because it downloads every Nerd Font.
 
 ## Favorite GNOME Shell extensions
 
 [Activities Configurator](https://extensions.gnome.org/extension/358/activities-configurator/) - I like to put "Alefe Souza" instead of "Activities" on the top left corner.
 
-[Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/) - To have the last 15 clipboards on the top bar.
+[Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/) - To have the latest 15 clipboards on the top bar.
 
 [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/) - I like it 50% blue and fixed/extended on the left.
-
-[Drop Down Terminal](https://extensions.gnome.org/extension/442/drop-down-terminal/)
 
 [Emoji Selector](https://extensions.gnome.org/extension/1162/emoji-selector/) - It's very good with Noto Emoji font.
 
@@ -77,7 +77,7 @@ I also like to use FiraMono For Nerd Font as my monospace font and FiraCode Nerd
 
 ### [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
-    yaourt -S oh-my-zsh-git
+    yay -S oh-my-zsh-git
 
 ### [powerlevel9k](https://github.com/bhilburn/powerlevel9k) theme
 
@@ -87,15 +87,15 @@ I also like to use FiraMono For Nerd Font as my monospace font and FiraCode Nerd
 
 ### [VS Code](https://github.com/Microsoft/vscode) because it's the best text editor
 
-    yaourt -S visual-studio-code-bin
+    yay -S visual-studio-code-bin
 
 ### Google Chrome because...
 
-    yaourt -S google-chrome
+    yay -S google-chrome
 
 ### [Tilix](https://github.com/gnunn1/tilix) because it's a great terminal emulator
 
-    yaourt -S tilix
+    yay -S tilix
 
 ### [Docker](https://github.com/docker/docker-ce) for any programming stuff
 
@@ -103,6 +103,13 @@ I also like to use FiraMono For Nerd Font as my monospace font and FiraCode Nerd
 
 ## Utilities
 
-### filemanager-actions to add an "Open with Code" options on the nautilus context menu
+### filemanager-actions
+
+To add an "Open with Code" options on the nautilus context menu
 
     pacman -S filemanager-actions
+
+## Useful links:
+
+[yay](https://github.com/Jguer/yay) - To install AUR packages.
+[asdf](https://github.com/asdf-vm/asdf) - To manage version of almost all most used programming languages.
