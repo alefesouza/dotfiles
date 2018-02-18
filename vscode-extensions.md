@@ -88,6 +88,8 @@ Extensions installed on my Visual Studio Code.
 
 ## <a name="other"></a> Other
 
+[Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+
 [Docker](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker)
 
 [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
@@ -99,7 +101,5 @@ Extensions installed on my Visual Studio Code.
 [open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
 
 [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-
-[Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets)
 
 [TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)

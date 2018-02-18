@@ -6,28 +6,43 @@
     "editor.lineNumbers": "on",
     "editor.minimap.enabled": true,
     "editor.wordWrap": "on",
+
     "files.defaultLanguage": "html",
     "files.eol": "\n",
+
     "terminal.integrated.fontFamily": "FiraCode Nerd Font",
     "terminal.integrated.rightClickCopyPaste": true,
     "terminal.integrated.shell.linux": "/usr/bin/zsh",
     "terminal.integrated.shell.windows": "C:\\cygwin64\\bin\\fish.exe",
+
     "workbench.colorTheme": "Atom One Dark",
     "workbench.iconTheme": "material-icon-theme",
+
     "window.menuBarVisibility": "toggle",
     "window.openFilesInNewWindow": "off",
     "window.title": "${dirty}${activeEditorLong}${separator}${appName}",
     "window.zoomLevel": 0,
+
     "typescript.referencesCodeLens.enabled": true,
+
     "php.suggest.basic": false,
     "php.validate.executablePath": "php",
+
+    "bracketPairColorizer.forceUniqueOpeningColor": true,
+
     "docker.attachShellCommand.linuxContainer": "/bin/bash",
+
     "emmet.syntaxProfiles": {
         "blade": "html"
     },
+
     "local-history.maxDisplay": 50,
-    "local-history.path": "Visual Studio Code",
+    "local-history.path": "/home/alefe/Visual Studio Code",
+
     "material-icon-theme.folders.color": "#42a5f5",
     "material-icon-theme.hidesExplorerArrows": true,
+
+    "php-cs-fixer.executablePath": "/home/alefe/.config/composer/vendor/bin/php-cs-fixer",
+
     "vetur.format.defaultFormatter.ts": "vscode-typescript"
 }
