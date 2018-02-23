@@ -4,11 +4,11 @@ Extensions installed on my Visual Studio Code.
 
 ## Table of contents
 
-- [Favorite Extensions](#favorite-extensions)
-- [Theming](#theming)
-- [Front-end](#front-end)
-- [Back-end](#back-end)
-- [Other](#other)
+* [Favorite Extensions](#favorite-extensions)
+* [Theming](#theming)
+* [Front-end](#front-end)
+* [Back-end](#back-end)
+* [Other](#other)
 
 ## <a name="favorite-extensions"></a> Favorite Extensions :heart:
 
@@ -35,6 +35,8 @@ Extensions installed on my Visual Studio Code.
 ### JavaScript
 
 [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
+[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 #### Angular
 

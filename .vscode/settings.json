@@ -28,6 +28,7 @@
     "php.suggest.basic": false,
     "php.validate.executablePath": "php",
 
+    // Extensions settings
     "bracketPairColorizer.forceUniqueOpeningColor": true,
 
     "docker.attachShellCommand.linuxContainer": "/bin/bash",
@@ -44,5 +45,11 @@
 
     "php-cs-fixer.executablePath": "/home/alefe/.config/composer/vendor/bin/php-cs-fixer",
 
+    "prettier.disableLanguages": [],
+    "prettier.eslintIntegration": true,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "all",
+
+    "vetur.format.defaultFormatter.js": "none",
     "vetur.format.defaultFormatter.ts": "vscode-typescript"
 }
