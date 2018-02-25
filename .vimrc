@@ -14,14 +14,13 @@ Plugin 'mattn/emmet-vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'majutsushi/tagbar'
 Plugin 'fweep/vim-tabber'
-Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'luochen1990/rainbow'
-Plugin 'severin-lemaignan/vim-minimap'
 Plugin 'tpope/vim-surround'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'stanangeloff/php.vim'
 Plugin 'lvht/phpcd.vim'
+Plugin 'Yggdroot/indentLine'
 
 call vundle#end()
 
@@ -40,19 +39,21 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
+autocmd FileType php,html setlocal shiftwidth=4 tabstop=4
+
+set guifont=FiraMonoFor\ Nerd\ Font\ Regular
+
 set noshowmode
 
 color onedark
 hi Normal guibg=NONE ctermbg=NONE
 highlight LineNr ctermfg=grey
 
-set guifont=FiraMonoFor\ Nerd\ Font\ Regular
-
 :iabbrev @@ contact@alefesouza.com
 
 let g:airline_powerline_fonts=1
-
 let g:airline_theme = 'murmur'
+
 set tabline=%!tabber#TabLine()
 
 map <C-n> :NERDTreeToggle<CR>
