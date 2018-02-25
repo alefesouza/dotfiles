@@ -13,6 +13,15 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'mattn/emmet-vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'majutsushi/tagbar'
+Plugin 'fweep/vim-tabber'
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'luochen1990/rainbow'
+Plugin 'severin-lemaignan/vim-minimap'
+Plugin 'tpope/vim-surround'
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'stanangeloff/php.vim'
+Plugin 'lvht/phpcd.vim'
 
 call vundle#end()
 
@@ -27,13 +36,24 @@ set nocompatible
 filetype off
 
 filetype plugin indent on
+set tabstop=2
+set shiftwidth=2
+set expandtab
+
+set noshowmode
 
 color onedark
 hi Normal guibg=NONE ctermbg=NONE
 highlight LineNr ctermfg=grey
 
 set guifont=FiraMonoFor\ Nerd\ Font\ Regular
+
+:iabbrev @@ contact@alefesouza.com
+
 let g:airline_powerline_fonts=1
+
+let g:airline_theme = 'murmur'
+set tabline=%!tabber#TabLine()
 
 map <C-n> :NERDTreeToggle<CR>
 nmap <F8> :TagbarToggle<CR>
@@ -46,7 +66,8 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+let g:syntastic_php_checkers = ['php', 'phpmd']
 
 set conceallevel=1
 
-let g:airline_theme = 'murmur'
+let g:rainbow_active = 1
