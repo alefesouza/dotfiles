@@ -21,6 +21,8 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'stanangeloff/php.vim'
 Plugin 'lvht/phpcd.vim'
 Plugin 'Yggdroot/indentLine'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'airblade/vim-gitgutter'
 
 call vundle#end()
 
@@ -57,6 +59,8 @@ let g:airline_theme = 'murmur'
 set tabline=%!tabber#TabLine()
 
 map <C-n> :NERDTreeToggle<CR>
+let NERDTreeShowHidden=1
+
 nmap <F8> :TagbarToggle<CR>
 
 set statusline+=%#warningmsg#
@@ -72,3 +76,8 @@ let g:syntastic_php_checkers = ['php', 'phpmd']
 set conceallevel=1
 
 let g:rainbow_active = 1
+
+let g:multi_cursor_next_key='<F2>'
+let g:multi_cursor_prev_key='<F3>'
+
+highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
