@@ -43,9 +43,10 @@ For the web, international characters and emoji.
     pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji
 
 #### [Roboto](https://github.com/google/roboto) for the materia-theme
+
     pacman -S ttf-roboto
 
-I also like to use FiraMono For Nerd Font as my monospace font and FiraCode Nerd Font as my programming font, I don't use always the second one because some softwares doesn't support font ligatures. You can download those fonts .zip file [on this website](https://nerdfonts.com/) and extract in your ~/.fonts folder, there's also an [AUR package](https://aur.archlinux.org/packages/nerd-fonts-complete) but it have a big download size because it downloads every Nerd Font.
+I also like to use FiraMono For Nerd Font as my monospace font and FiraCode Nerd Font as my programming font, I don't use always the second one because some softwares doesn't support font ligatures. You can download those fonts .zip file [on this website](https://nerdfonts.com/) and extract in your ~/.fonts folder, there's also an [AUR package](https://aur.archlinux.org/packages/nerd-fonts-complete) but it has a big download size because it downloads every Nerd Font.
 
 ## Favorite GNOME Shell extensions
 
@@ -83,9 +84,17 @@ I also like to use FiraMono For Nerd Font as my monospace font and FiraCode Nerd
 
     git clone https://github.com/bhilburn/powerlevel9k.git $ZSH_CUSTOM/themes/powerlevel9k
 
+### [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) and [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+
+    git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+
 ## Favorite programs
 
-### [VS Code](https://github.com/Microsoft/vscode) because it's the best text editor
+### [VS Code](https://github.com/Microsoft/vscode)
+
+Because it's the best text editor
 
     yay -S visual-studio-code-bin
 
@@ -93,11 +102,15 @@ I also like to use FiraMono For Nerd Font as my monospace font and FiraCode Nerd
 
     yay -S google-chrome
 
-### [Tilix](https://github.com/gnunn1/tilix) because it's a great terminal emulator
+### [Tilix](https://github.com/gnunn1/tilix)
+
+Because it's a great terminal emulator
 
     yay -S tilix
 
-### [Docker](https://github.com/docker/docker-ce) for any programming stuff
+### [Docker](https://github.com/docker/docker-ce)
+
+For any programming stuff
 
     pacman -S docker docker-compose
 
@@ -105,11 +118,12 @@ I also like to use FiraMono For Nerd Font as my monospace font and FiraCode Nerd
 
 ### filemanager-actions
 
-To add an "Open with Code" options on the nautilus context menu
+To add an "Open with Code" options on the Nautilus context menu
 
     pacman -S filemanager-actions
 
 ## Useful links:
 
 [yay](https://github.com/Jguer/yay) - To install AUR packages.
-[asdf](https://github.com/asdf-vm/asdf) - To manage version of almost all most used programming languages.
+
+[asdf](https://github.com/asdf-vm/asdf) - To manage programming languages which I most use.
