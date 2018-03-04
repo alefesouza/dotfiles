@@ -1,6 +1,7 @@
 {
     "editor.dragAndDrop": true,
-    "editor.fontFamily": "FiraCode Nerd Font",
+    "editor.fontFamily":
+        "'FiraCode Nerd Font', 'Noto Mono', Consolas, Cousine, monospace",
     "editor.fontLigatures": true,
     "editor.formatOnSave": true,
     "editor.lineNumbers": "on",
@@ -23,6 +24,7 @@
     "window.title": "${dirty}${activeEditorLong}${separator}${appName}",
     "window.zoomLevel": 0,
 
+    "typescript.implementationsCodeLens.enabled": true,
     "typescript.referencesCodeLens.enabled": true,
 
     "php.suggest.basic": false,
@@ -41,12 +43,25 @@
     "material-icon-theme.folders.color": "#42a5f5",
     "material-icon-theme.hidesExplorerArrows": true,
 
-    "php-cs-fixer.executablePath": "/home/alefe/.config/composer/vendor/bin/php-cs-fixer",
+    "php-cs-fixer.executablePath":
+        "/home/alefe/.config/composer/vendor/bin/php-cs-fixer",
 
+    // JavaScript/TypeScript code format related
+    "eslint.packageManager": "yarn",
+    "eslint.nodePath": "/home/alefe/.config/yarn/global/node_modules",
+
+    "javascript.format.enable": false,
+    "json.format.enable": false,
+
+    "prettier.arrowParens": "always",
     "prettier.disableLanguages": [],
-    "prettier.eslintIntegration": true,
     "prettier.singleQuote": true,
     "prettier.trailingComma": "all",
+
+    "tslint.nodePath": "/home/alefe/.config/yarn/global/node_modules",
+    "tslint.packageManager": "yarn",
+
+    "typescript.format.enable": false,
 
     "vetur.format.defaultFormatter.js": "none",
     "vetur.format.defaultFormatter.ts": "none"
