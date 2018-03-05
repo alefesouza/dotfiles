@@ -45,6 +45,16 @@
         "command": "-editor.action.copyLinesUpAction",
         "when": "editorTextFocus && !editorReadonly"
     },
+    {
+        "key": "alt+right",
+        "command": "cursorEnd",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+left",
+        "command": "cursorHome",
+        "when": "editorTextFocus"
+    },
     // Vim like
     {
         "key": "ctrl+shift+;",
