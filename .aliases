@@ -1,3 +1,15 @@
+alias ci="composer install"
+alias ct="composer test"
+alias cu="composer update"
+
+alias dcu="docker-compose up"
+alias dcub="docker-compose up --build"
+alias dcd="docker-compose down"
+
+alias g="gulp"
+alias gd="gulp dist"
+alias gw="gulp watch"
+
 alias pam="php artisan migrate"
 alias pamd="php artisan migrate --seed"
 alias padb="php artisan db:seed"
@@ -9,14 +21,6 @@ alias yp="yarn prod"
 alias yt="yarn test"
 alias yu="yarn upgrade"
 alias yw="yarn watch"
-
-alias ci="composer install"
-alias ct="composer test"
-alias cu="composer update"
-
-alias dcu="docker-compose up"
-alias dcub="docker-compose up --build"
-alias dcd="docker-compose down"
 
 alias vv="vim ~/.vimrc"
 alias vz="vim ~/.zshrc"
